@@ -1,9 +1,11 @@
 # Next.js cache placement and data-visible latency study
 
+[![DOI](https://zenodo.org/badge/1431446696.svg)](https://doi.org/10.5281/zenodo.23603489)
+
 
 Code, frozen protocol, raw measurements, cache-path audits and analysis for a factorial experiment on browser data-visible latency in a Next.js, Express, PostgreSQL and Redis application: CSR/SSR × upper-layer cache × Redis × three client-egress delays, 720 seeded runs and 5,040 browser actions.
 
-The associated manuscript is unpublished. The Zenodo archive DOI is added with the first release.
+The associated manuscript is unpublished. Archived on Zenodo (all versions): https://doi.org/10.5281/zenodo.23603489
 
 ## Contents
 
@@ -31,6 +33,6 @@ Code is MIT licensed (see `LICENSE`).
 
 If you use this artifact, please cite the Zenodo archive of the release you used:
 
-> Tashrif, I. A. (2026). Research artifact: Next.js cache placement and data-visible latency study [Software and data]. Zenodo.
+> Tashrif, I. A. (2026). Research artifact: Next.js cache placement and data-visible latency study (v1.0.0) [Software and data]. Zenodo. https://doi.org/10.5281/zenodo.23603489
 
 Repository: https://github.com/Istiak-A-Tashrif/nextjs-cache-latency-study-artifact
