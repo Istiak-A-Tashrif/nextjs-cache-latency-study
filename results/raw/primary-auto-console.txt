@@ -1,0 +1,68 @@
+SELECT 5000
+DO
+{"check" : "all_product_aggregates", "rows" : 5000, "mismatches" : 0}
+{ "categories" : 10, "tags" : 50, "product_tags" : 0, "inventory" : 5000, "products" : 5000, "users" : 10000, "orders" : 20000, "reviews" : 30000, "order_items" : 50000 }
+{"legacy_count_mismatches" : 4922}
+
+
+
+[691/720] primary-s28-d170-csr-f0-b0-retry1
+
+[692/720] primary-s28-d170-csr-f1-b1
+
+[693/720] primary-s25-d170-ssr-f1-b0
+
+[694/720] primary-s28-d40-ssr-f0-b1
+
+[695/720] primary-s24-d170-ssr-f0-b0
+
+[696/720] primary-s7-d0-ssr-f0-b1
+
+[697/720] primary-s1-d170-csr-f1-b1
+
+[698/720] primary-s10-d0-ssr-f1-b1
+
+[699/720] primary-s20-d40-csr-f1-b1
+
+[700/720] primary-s30-d0-ssr-f0-b0
+
+[701/720] primary-s22-d170-ssr-f1-b0
+
+[702/720] primary-s7-d40-csr-f0-b1
+
+[703/720] primary-s1-d0-ssr-f0-b0
+
+[704/720] primary-s15-d0-csr-f0-b1
+
+[705/720] primary-s11-d0-ssr-f1-b1
+
+[706/720] primary-s5-d40-ssr-f1-b0
+
+[707/720] primary-s10-d40-csr-f0-b0
+
+[708/720] primary-s19-d170-csr-f0-b1
+
+[709/720] primary-s29-d170-ssr-f0-b0
+
+[710/720] primary-s24-d170-ssr-f1-b0
+
+[711/720] primary-s28-d0-ssr-f0-b0
+
+[712/720] primary-s2-d170-ssr-f1-b0
+
+[713/720] primary-s8-d40-ssr-f1-b1
+
+[714/720] primary-s11-d170-ssr-f1-b1
+
+[715/720] primary-s17-d170-csr-f0-b1
+
+[716/720] primary-s14-d0-ssr-f0-b1
+
+[717/720] primary-s16-d40-csr-f0-b1
+
+[718/720] primary-s26-d170-csr-f1-b1
+
+[719/720] primary-s8-d0-csr-f1-b1
+
+[720/720] primary-s8-d170-ssr-f1-b0
+

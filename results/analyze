@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+PY="${UNI_PYTHON:-python3}"
+exec "$PY" results/analyze.py "$@"

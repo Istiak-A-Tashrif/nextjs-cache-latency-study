@@ -1,0 +1,106 @@
+[
+  {
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "pairs": 3,
+    "cold_mean_ms": 105.86666665474574,
+    "warm_mean_ms": 68.93333335717519,
+    "paired_cold_minus_warm_ms": [
+      44.699999928474426,
+      29.799999952316284,
+      36.30000001192093
+    ]
+  },
+  {
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "pairs": 3,
+    "cold_mean_ms": 105.86666669448216,
+    "warm_mean_ms": 67.13333332538605,
+    "paired_cold_minus_warm_ms": [
+      26.000000059604645,
+      47.000000059604645,
+      43.19999998807907
+    ]
+  },
+  {
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "pairs": 3,
+    "cold_mean_ms": 102.9666666785876,
+    "warm_mean_ms": 64.2333333293597,
+    "paired_cold_minus_warm_ms": [
+      29.899999976158142,
+      34.700000047683716,
+      51.60000002384186
+    ]
+  },
+  {
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "pairs": 3,
+    "cold_mean_ms": 108.53333334128062,
+    "warm_mean_ms": 61.10000000397364,
+    "paired_cold_minus_warm_ms": [
+      44.000000059604645,
+      40.5,
+      57.799999952316284
+    ]
+  },
+  {
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "pairs": 3,
+    "cold_mean_ms": 76.16666666666667,
+    "warm_mean_ms": 53.433333357175194,
+    "paired_cold_minus_warm_ms": [
+      26.499999940395355,
+      21.80000001192093,
+      19.899999976158142
+    ]
+  },
+  {
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "pairs": 3,
+    "cold_mean_ms": 76.03333336114883,
+    "warm_mean_ms": 46.5,
+    "paired_cold_minus_warm_ms": [
+      23.5,
+      20.400000035762787,
+      44.700000047683716
+    ]
+  },
+  {
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "pairs": 3,
+    "cold_mean_ms": 76.63333332538605,
+    "warm_mean_ms": 41.333333353201546,
+    "paired_cold_minus_warm_ms": [
+      23.399999976158142,
+      37.999999940395355,
+      44.5
+    ]
+  },
+  {
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "pairs": 3,
+    "cold_mean_ms": 91.29999999205272,
+    "warm_mean_ms": 33.70000000794729,
+    "paired_cold_minus_warm_ms": [
+      71.19999998807907,
+      40.999999940395355,
+      60.60000002384186
+    ]
+  }
+]

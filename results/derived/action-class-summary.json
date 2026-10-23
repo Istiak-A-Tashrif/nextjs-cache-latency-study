@@ -1,0 +1,1442 @@
+[
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      62.643333327770236,
+      59.90999999632438,
+      65.51333331674337
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      35.608333336313564,
+      33.15320833817124,
+      38.27175000205636
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      35.91000000635782,
+      33.67772222956021,
+      38.31558334292637
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      59.67666666706403,
+      56.77324999958277,
+      62.43333332747221
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      59.606666666269305,
+      57.519999998807904,
+      61.85666666428248
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      37.83166666328907,
+      35.05333333109816,
+      40.60666666050752
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      30.354444445504082,
+      30.031083329551752,
+      30.718888888905447
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      48.063333330551785,
+      47.11658332948883,
+      49.17333333303531
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      60.84999999801318,
+      58.64324999665221,
+      63.17666666318973
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      38.00833333233992,
+      35.143250000427166,
+      40.97837499772509
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      31.383333335320156,
+      31.07444444696109,
+      31.703333336810278
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      61.789999999602635,
+      59.28333333715796,
+      64.25
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      61.14666666587194,
+      58.59324998885393,
+      63.93666666552424
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      36.9566666662693,
+      34.38991666341821,
+      39.64837500241895
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      31.185555556085372,
+      30.924444444957707,
+      31.455555553585285
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      50.269999996821085,
+      48.433333325386045,
+      52.37333333109816
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      36.75666666229566,
+      33.03991665442784,
+      40.60358333011468
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      29.494999997814496,
+      29.10666666726271,
+      29.890000000645717
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      29.998888889286256,
+      29.528888887150423,
+      30.59558333353864
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      35.036666669448216,
+      30.646666663885117,
+      39.62000000481804
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      38.90333333611488,
+      34.81333334038655,
+      43.04000000362595
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      29.414999996622402,
+      29.09495832723876,
+      29.733375000854334
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      31.348888888623982,
+      30.865555555290648,
+      31.900027778330774
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      20.503333328167596,
+      19.553333324193954,
+      21.699999996026357
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      39.743333333730696,
+      36.20666667371988,
+      43.20675000523527
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      28.838333331545194,
+      28.55329166280727,
+      29.146666660904884
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      31.211111112435663,
+      30.92666667221321,
+      31.50000000135766
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      21.930000005165734,
+      19.65666667615374,
+      24.62000000288089
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      40.76000000635783,
+      36.270000002731884,
+      45.01008333196243
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      29.01499999463558,
+      28.679999992251396,
+      29.361666661575438
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      31.646666667196484,
+      31.297777778522825,
+      32.00444444682863
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 0,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      20.813333336512247,
+      18.963333334475756,
+      23.056750005433955
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      451.2600000023842,
+      447.44325000435117,
+      455.0036666732033
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      115.77833333512147,
+      113.94829166732728,
+      117.82008333417276
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      116.12444444364971,
+      114.03888889087573,
+      118.25111111074686
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      452.3866666595141,
+      447.98658332029976,
+      456.91674999177457
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      448.23000000317893,
+      444.8800000011921,
+      451.50341667160393
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      117.87500000099341,
+      115.97662499656279,
+      119.88000000317892
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      103.65222222275203,
+      101.99208333288628,
+      105.31888889140554
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      442.41666666269305,
+      439.543250002116,
+      445.2499999941885
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      452.5233333388964,
+      449.5833333431681,
+      455.4633333347241
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      116.66666666169961,
+      114.73487499547502,
+      118.79833332603177
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      59.8222222228845,
+      58.43219444609351,
+      61.140027776178385
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      452.35333332419395,
+      449.023333324939,
+      455.77341666395466
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      449.92000000278153,
+      445.923250007232,
+      454.1000833393633
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      117.95500000119209,
+      115.85816666672628,
+      120.20500000037252
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      59.56222222447396,
+      58.053277780711646,
+      60.93891667443845
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      440.38333333730696,
+      437.56658333157503,
+      443.18675000667577
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      198.41333333055178,
+      195.89333333164456,
+      200.9199999989569
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      70.38833332955838,
+      67.83820833069582,
+      72.98674999676645
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      69.31777777936722,
+      67.1233333368765,
+      71.5922499968277
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      197.0633333325386,
+      194.709916669031,
+      199.4166666569809
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      197.983333337307,
+      195.74658333857855,
+      200.24333333969116
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      71.39166666169962,
+      68.83658333390952,
+      73.95004166367154
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      61.54333332909478,
+      60.57555555227729,
+      62.357805553310435
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      187.6966666638851,
+      186.1099999962747,
+      189.24008333459497
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      199.7066666662693,
+      196.8366666673124,
+      202.47008333598575
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      71.6750000009934,
+      69.31991666937869,
+      73.9967083345602
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      60.11222222513622,
+      58.676611115336414,
+      61.49227778186402
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      186.35999999841053,
+      184.89000000943741,
+      187.82666666517653
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      198.9566666742166,
+      196.86308333675066,
+      200.9366666735212
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      71.7600000033776,
+      69.38662499802808,
+      74.12833333611488
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      60.27222221824857,
+      59.1299444410536,
+      61.326694437033595
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 40,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      186.55666666030885,
+      184.80333332618076,
+      188.32333332300186
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      1657.8333333392939,
+      1653.896666669796,
+      1661.7300000051657
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      394.9099999974171,
+      392.0432083297769,
+      397.7399999929219
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      393.3277777764532,
+      390.19666666708054,
+      396.2833333313796
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      1653.16666666468,
+      1648.2197499988972,
+      1657.7966666639347
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      1650.0399999996027,
+      1635.8026666713754,
+      1660.6000833313662
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      395.698333332936,
+      391.9765833278497,
+      399.15170833756525
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      373.08777777685066,
+      371.51550000041726,
+      374.68669444517957
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": false,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      1633.9266666611036,
+      1629.8999166607857,
+      1637.5134166659911
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      1657.6099999924502,
+      1652.6462499913573,
+      1662.693416668773
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      394.7766666640838,
+      391.8199999997765,
+      397.66999999384086
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      193.5566666669316,
+      192.41444444388154,
+      194.62002778230442
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      1653.1266666650772,
+      1649.3099166650575,
+      1657.1967500011126
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      1655.4866666634878,
+      1648.9233333308498,
+      1661.3966666619976
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      394.273333332936,
+      389.9316249996672,
+      398.2985833347837
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      192.6933333310816,
+      191.1654722205963,
+      194.06669444115624
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "csr",
+    "fe": true,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      1633.3266666591167,
+      1629.333333331297,
+      1636.973499989609
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      746.1866666674614,
+      743.289833329171,
+      749.1200000028313
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      216.10499999920526,
+      212.71487499870358,
+      219.3567500034968
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      212.29222222566605,
+      209.57769444712335,
+      214.87222222886152
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      740.6366666674614,
+      737.3465833267072,
+      744.0367500008643
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      744.916666662693,
+      741.2364166595538,
+      748.4499999921024
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      214.36666666766007,
+      210.92150000294052,
+      217.8651666642229
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      195.06111111177339,
+      194.18330555424092,
+      195.85111111410788
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": false,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      721.0300000111262,
+      718.8499166765808,
+      723.0933333437144
+    ],
+    "api_per_action": 1,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      745.056666670243,
+      741.3499166668952,
+      748.5534166655938
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      216.74166666467985,
+      213.02162499343353,
+      220.40004165902735
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      194.17222222023534,
+      192.90438888414036,
+      195.36225000020528
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": false,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      717.5500000019869,
+      715.7200000124673,
+      719.2567500093082
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "first_initial",
+    "runs": 30,
+    "visible_ms": [
+      745.2700000047683,
+      741.8333333372076,
+      748.6567500094076
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "new_key",
+    "runs": 30,
+    "visible_ms": [
+      215.9600000033776,
+      212.92000000377496,
+      218.96337500798208
+    ],
+    "api_per_action": 1,
+    "db_per_action": 1
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "revisit",
+    "runs": 30,
+    "visible_ms": [
+      194.4766666677263,
+      192.96886111097203,
+      195.83888888835904
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  },
+  {
+    "delay": 170,
+    "mode": "ssr",
+    "fe": true,
+    "be": true,
+    "class": "fresh_initial",
+    "runs": 30,
+    "visible_ms": [
+      717.7366666535537,
+      716.1833333194256,
+      719.3334166526795
+    ],
+    "api_per_action": 0,
+    "db_per_action": 0
+  }
+]

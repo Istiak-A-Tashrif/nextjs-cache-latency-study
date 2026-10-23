@@ -1,0 +1,6 @@
+{
+"collected": "2026-10-21T13:37:18Z",
+"docker": "29.8.2",
+"images": "unibench-client=sha256:39f857bae83e575ee9b1827857544f89014a249afb7ca9d5e0b8a2a1511003ff unibench-web=sha256:a025b30cf5cc9a36f548baa121c755b307d7a9977dc466a120fd3d2ac0fd2d3a unibench-api=sha256:976eede75270b92eee0d0690e848be146b613b43beb626049d226b38c8905347 ",
+"git_commit": "5c40c3ca155471d88275fa7c02f96a8f6f1d9e81"
+}

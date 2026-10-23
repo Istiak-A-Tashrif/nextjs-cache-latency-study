@@ -1,0 +1,38 @@
+name: unibench
+services:
+  db:
+    image: postgres:17.2-bookworm
+    environment:
+      POSTGRES_USER: unibench
+      POSTGRES_PASSWORD: local-benchmark-only
+      POSTGRES_DB: unibench
+    ports: ["127.0.0.1:25432:5432"]
+    volumes:
+      - uni-db:/var/lib/postgresql/data
+      - ./generated_test_data_dump.sql:/docker-entrypoint-initdb.d/01-data.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U unibench -d unibench"]
+      interval: 2s
+      retries: 120
+  redis:
+    image: redis:7.4.2-bookworm
+    ports: ["127.0.0.1:26379:6379"]
+  api:
+    build: ./backend
+    ports: ["127.0.0.1:25001:5001"]
+    volumes: ["${UNI_RAW:-../results/raw}:/results"]
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_started}
+  web:
+    build: ./frontend
+    ports: ["127.0.0.1:23000:3000"]
+    depends_on: [api]
+  client:
+    build: ./benchmark
+    cap_add: [NET_ADMIN]
+    shm_size: 1gb
+    volumes: ["${UNI_RAW:-../results/raw}:/results"]
+    depends_on: [web]
+volumes:
+  uni-db:

@@ -1,0 +1,120 @@
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[1/24] startup-s3-csr-f1-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[2/24] startup-s3-csr-f0-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[3/24] startup-s2-ssr-f1-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[4/24] startup-s2-ssr-f0-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[5/24] startup-s2-ssr-f1-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[6/24] startup-s1-csr-f1-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[7/24] startup-s1-csr-f0-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[8/24] startup-s3-csr-f1-b0
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[9/24] startup-s1-ssr-f0-b1
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[10/24] startup-s3-csr-f0-b1
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[11/24] startup-s3-ssr-f0-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[12/24] startup-s1-ssr-f1-b1
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[13/24] startup-s1-ssr-f1-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[14/24] startup-s2-csr-f0-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[15/24] startup-s3-ssr-f1-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[16/24] startup-s2-csr-f0-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[17/24] startup-s3-ssr-f0-b0
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[18/24] startup-s2-ssr-f0-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[19/24] startup-s3-ssr-f1-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[20/24] startup-s1-ssr-f0-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[21/24] startup-s1-csr-f0-b0
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[22/24] startup-s2-csr-f1-b1
+ Container unibench-web-1 Restarting 
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[23/24] startup-s1-csr-f1-b1
+ Container unibench-api-1 Restarting 
+ Container unibench-web-1 Restarting 
+ Container unibench-web-1 Started 
+ Container unibench-api-1 Started 
+[24/24] startup-s2-csr-f1-b0

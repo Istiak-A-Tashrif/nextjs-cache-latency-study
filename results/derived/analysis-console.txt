@@ -1,0 +1,1 @@
+PASS: 720 independent runs, 5040 browser observations, 3780 API requests; all cache traces verified; manuscript and figures regenerated.

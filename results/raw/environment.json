@@ -1,0 +1,42 @@
+{
+  "recorded_utc": "2026-10-20T15:27:02Z",
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0.1\nBuildVersion:\t\t26A434",
+  "hardware": "Apple M5",
+  "memory_bytes": 17179869184,
+  "logical_cpus": 10,
+  "docker": "{\"Client\":{\"Version\":\"29.8.2\",\"ApiVersion\":\"1.56\",\"DefaultAPIVersion\":\"1.56\",\"GitCommit\":\"7fc2dff\",\"GoVersion\":\"go1.26.8\",\"Os\":\"darwin\",\"Arch\":\"arm64\",\"BuildTime\":\"Wed Sep 30 19:32:03 2026\",\"Context\":\"desktop-linux\"},\"Server\":{\"Platform\":{\"Name\":\"Docker Desktop 4.94.0 (241994)\"},\"Version\":\"29.8.2\",\"ApiVersion\":\"1.56\",\"MinAPIVersion\":\"1.40\",\"Os\":\"linux\",\"Arch\":\"arm64\",\"Components\":[{\"Name\":\"Engine\",\"Version\":\"29.8.2\",\"Details\":{\"ApiVersion\":\"1.56\",\"Arch\":\"arm64\",\"BuildTime\":\"Wed Sep 30 19:31:50 2026\",\"Experimental\":\"false\",\"GitCommit\":\"8af9fe3\",\"GoVersion\":\"go1.26.8\",\"KernelVersion\":\"7.0.14-linuxkit\",\"MinAPIVersion\":\"1.40\",\"Module\":\"github.com/moby/moby/v2\",\"ModuleVersion\":\"v2.0.0+unknown\",\"Os\":\"linux\"}},{\"Name\":\"containerd\",\"Version\":\"v2.3.6\",\"Details\":{\"GitCommit\":\"ee2735368117d2eb259779949d5e75cdafec9761\"}},{\"Name\":\"runc\",\"Version\":\"1.5.1\",\"Details\":{\"GitCommit\":\"v1.5.1-0-g8f2685a4\"}},{\"Name\":\"docker-init\",\"Version\":\"0.19.0\",\"Details\":{\"GitCommit\":\"de40ad0\"}}],\"GitCommit\":\"8af9fe3\",\"GoVersion\":\"go1.26.8\",\"KernelVersion\":\"7.0.14-linuxkit\",\"BuildTime\":\"2026-09-30T19:31:50.000000000+00:00\"}}",
+  "compose": "Docker Compose version v5.5.1",
+  "host_node": "v22.23.3",
+  "web_versions": {
+    "node": "v22.23.0",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "tanstack": "5.90.15"
+  },
+  "api_node": "v22.23.0",
+  "postgres": "postgres (PostgreSQL) 17.2 (Debian 17.2-1.pgdg120+1)",
+  "redis": "Redis server v=7.4.2 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=ebf881730b101924",
+  "client_node": "v22.20.0",
+  "linux": "Linux 5f25e70fbb8e 7.0.14-linuxkit #1 SMP PREEMPT Sun Sep 20 16:14:09 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux",
+  "netem": "tc utility, iproute2-6.1.0, libbpf 1.3.0",
+  "images": {
+    "postgres": [
+      "postgres@sha256:3267c505060a0052e5aa6e5175a7b41ab6b04da2f8c4540fc6e98a37210aa2d3"
+    ],
+    "redis": [
+      "redis@sha256:fbdbaea47b9ae4ecc2082ecdb4e1cea81e32176ffb1dcf643d422ad07427e5d9"
+    ],
+    "web": [
+      "unibench-web@sha256:deff22c525e15533b263a3087886826b90f9680a6f75a70343861821a7f12891"
+    ],
+    "api": [
+      "unibench-api@sha256:6a3781fedd62496808ab5139c8cd13a757ac3c2e481cf08b45aec616efcc9143"
+    ],
+    "client": [
+      "unibench-client@sha256:dfc8eaf327957926d5857a714381988b0efcbf264496041f0595024d3d439193"
+    ]
+  },
+  "docker_vm_cpus": 10,
+  "docker_vm_memory_bytes": 8319504384,
+  "resource_recorded_utc": "2026-10-20T16:11:04.908489+00:00"
+}
