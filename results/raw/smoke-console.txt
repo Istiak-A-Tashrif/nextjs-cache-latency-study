@@ -1,0 +1,24 @@
+SELECT 5000
+DO
+{"check" : "all_product_aggregates", "rows" : 5000, "mismatches" : 0}
+{ "categories" : 10, "tags" : 50, "product_tags" : 0, "inventory" : 5000, "products" : 5000, "users" : 10000, "orders" : 20000, "reviews" : 30000, "order_items" : 50000 }
+{"legacy_count_mismatches" : 4922}
+
+
+
+[1/8] smoke-s1-d0-ssr-f0-b0
+
+[2/8] smoke-s1-d0-csr-f0-b0
+
+[3/8] smoke-s1-d0-csr-f1-b1
+
+[4/8] smoke-s1-d0-ssr-f1-b0
+
+[5/8] smoke-s1-d0-ssr-f1-b1
+
+[6/8] smoke-s1-d0-ssr-f0-b1
+
+[7/8] smoke-s1-d0-csr-f0-b1
+
+[8/8] smoke-s1-d0-csr-f1-b0
+

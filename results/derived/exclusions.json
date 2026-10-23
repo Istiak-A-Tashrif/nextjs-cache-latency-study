@@ -1,0 +1,102 @@
+{
+  "failed_attempts": [
+    {
+      "run": "primary-s14-d170-csr-f1-b1",
+      "seed": 14,
+      "delay": 170,
+      "mode": "csr",
+      "fe": true,
+      "be": true,
+      "start": "2026-10-20T16:15:51.630Z",
+      "error": "Main harness active: 14096"
+    },
+    {
+      "run": "primary-s9-d40-csr-f1-b1",
+      "seed": 9,
+      "delay": 40,
+      "mode": "csr",
+      "fe": true,
+      "be": true,
+      "start": "2026-10-20T16:19:39.140Z",
+      "error": "Main harness active: 21076 (21076 /bin/zsh Tue Oct 20 22:19:40 2026)"
+    },
+    {
+      "run": "primary-s28-d170-csr-f0-b0",
+      "seed": 28,
+      "delay": 170,
+      "mode": "csr",
+      "fe": false,
+      "be": false,
+      "start": "2026-10-20T16:22:33.500Z",
+      "error": "Main harness active: 25450 (25450 /bin/zsh Tue Oct 20 22:22:37 2026)"
+    }
+  ],
+  "failed_startup_pairs": [],
+  "flagged_guard_records": [
+    {
+      "at": "2026-10-20T16:15:52.431Z",
+      "event": "batch-end",
+      "args": [
+        "exec",
+        "-T",
+        "client",
+        "node",
+        "runner.mjs",
+        "{\"seed\":14,\"delay\":170,\"mode\":\"csr\",\"fe\":true,\"be\":true,\"run\":\"primary-s14-d170-csr-f1-b1\",\"pages\":[86,87,86,87,88,87],\"phase\":\"primary\"}"
+      ],
+      "code": 130,
+      "pgrep": "Main harness active: 14096"
+    },
+    {
+      "at": "2026-10-20T16:19:40.999Z",
+      "event": "guard-match",
+      "pids": "21076",
+      "identity": "21076 /bin/zsh Tue Oct 20 22:19:40 2026",
+      "pgrep": "matched"
+    },
+    {
+      "at": "2026-10-20T16:19:41.142Z",
+      "event": "batch-end",
+      "args": [
+        "exec",
+        "-T",
+        "client",
+        "node",
+        "runner.mjs",
+        "{\"seed\":9,\"delay\":40,\"mode\":\"csr\",\"fe\":true,\"be\":true,\"run\":\"primary-s9-d40-csr-f1-b1\",\"pages\":[38,39,38,39,40,39],\"phase\":\"primary\"}"
+      ],
+      "code": 0,
+      "pgrep": "Main harness active: 21076 (21076 /bin/zsh Tue Oct 20 22:19:40 2026)"
+    },
+    {
+      "at": "2026-10-20T16:22:38.046Z",
+      "event": "guard-match",
+      "pids": "25450",
+      "identity": "25450 /bin/zsh Tue Oct 20 22:22:37 2026",
+      "pgrep": "matched"
+    },
+    {
+      "at": "2026-10-20T16:22:38.232Z",
+      "event": "guard-match",
+      "pids": "25450",
+      "identity": "25450 /bin/zsh Tue Oct 20 22:22:37 2026",
+      "pgrep": "matched"
+    },
+    {
+      "at": "2026-10-20T16:22:38.292Z",
+      "event": "batch-end",
+      "args": [
+        "exec",
+        "-T",
+        "client",
+        "node",
+        "runner.mjs",
+        "{\"seed\":28,\"delay\":170,\"mode\":\"csr\",\"fe\":false,\"be\":false,\"run\":\"primary-s28-d170-csr-f0-b0\",\"pages\":[82,83,82,83,84,83],\"phase\":\"primary\"}"
+      ],
+      "code": 137,
+      "pgrep": "Main harness active: 25450 (25450 /bin/zsh Tue Oct 20 22:22:37 2026)"
+    }
+  ],
+  "accepted_browser_runs": 768,
+  "reason": "Guard protocol failure only; all records retained, fresh namespace on retry"
+}

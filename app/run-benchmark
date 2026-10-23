@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")"
+# Fail closed before building or starting our own project.
+if pgrep -f harness.mjs > /dev/null; then echo 'Main harness active; no unibench work started.' >&2; exit 75; else code=$?; [ "$code" -eq 1 ] || exit "$code"; fi
+node benchmark.mjs build
+node benchmark.mjs up
+node benchmark.mjs check
+if [ "${1:-run}" = smoke ]; then
+  node benchmark.mjs smoke
+else
+  python3 complete-benchmark.py
+  ../results/analyze
+fi

@@ -1,0 +1,66 @@
+{
+  "created": "2026-10-20T15:26:12.748Z",
+  "reps": 1,
+  "delays": [
+    0
+  ],
+  "orderSeed": 20261020,
+  "configs": [
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "ssr",
+      "fe": false,
+      "be": false
+    },
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "csr",
+      "fe": false,
+      "be": false
+    },
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "csr",
+      "fe": true,
+      "be": true
+    },
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "ssr",
+      "fe": true,
+      "be": false
+    },
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "ssr",
+      "fe": true,
+      "be": true
+    },
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "ssr",
+      "fe": false,
+      "be": true
+    },
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "csr",
+      "fe": false,
+      "be": true
+    },
+    {
+      "seed": 1,
+      "delay": 0,
+      "mode": "csr",
+      "fe": true,
+      "be": false
+    }
+  ]
+}

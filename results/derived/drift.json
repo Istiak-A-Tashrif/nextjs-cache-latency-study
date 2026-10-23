@@ -1,0 +1,122 @@
+[
+  {
+    "cell": "(0, 'csr', False, False)",
+    "early_mean": 35.97800000190735,
+    "late_mean": 32.18400000691414
+  },
+  {
+    "cell": "(0, 'csr', False, True)",
+    "early_mean": 31.740000000000002,
+    "late_mean": 32.85999999284744
+  },
+  {
+    "cell": "(0, 'csr', True, False)",
+    "early_mean": 34.28799999833107,
+    "late_mean": 32.96600000262261
+  },
+  {
+    "cell": "(0, 'csr', True, True)",
+    "early_mean": 32.146000000238416,
+    "late_mean": 33.702000000476836
+  },
+  {
+    "cell": "(0, 'ssr', False, False)",
+    "early_mean": 29.68400000333786,
+    "late_mean": 29.98199999451637
+  },
+  {
+    "cell": "(0, 'ssr', False, True)",
+    "early_mean": 30.469999998807907,
+    "late_mean": 31.03200000166893
+  },
+  {
+    "cell": "(0, 'ssr', True, False)",
+    "early_mean": 30.318000001907347,
+    "late_mean": 30.119999996423722
+  },
+  {
+    "cell": "(0, 'ssr', True, True)",
+    "early_mean": 30.643999998569488,
+    "late_mean": 30.337999999523163
+  },
+  {
+    "cell": "(40, 'csr', False, False)",
+    "early_mean": 117.57799999713897,
+    "late_mean": 114.02800000190734
+  },
+  {
+    "cell": "(40, 'csr', False, True)",
+    "early_mean": 109.75200000405312,
+    "late_mean": 109.57800000190736
+  },
+  {
+    "cell": "(40, 'csr', True, False)",
+    "early_mean": 81.58400000214577,
+    "late_mean": 82.35399999380111
+  },
+  {
+    "cell": "(40, 'csr', True, True)",
+    "early_mean": 83.27599999904633,
+    "late_mean": 83.00200000524521
+  },
+  {
+    "cell": "(40, 'ssr', False, False)",
+    "early_mean": 69.42599999785423,
+    "late_mean": 71.06200000047684
+  },
+  {
+    "cell": "(40, 'ssr', False, True)",
+    "early_mean": 65.07999999761581,
+    "late_mean": 64.86399998903275
+  },
+  {
+    "cell": "(40, 'ssr', True, False)",
+    "early_mean": 64.43199999928474,
+    "late_mean": 64.29200000524521
+  },
+  {
+    "cell": "(40, 'ssr', True, True)",
+    "early_mean": 64.82799999952316,
+    "late_mean": 65.80399999618531
+  },
+  {
+    "cell": "(170, 'csr', False, False)",
+    "early_mean": 393.9200000047684,
+    "late_mean": 393.3579999923706
+  },
+  {
+    "cell": "(170, 'csr', False, True)",
+    "early_mean": 383.06999999880793,
+    "late_mean": 381.9260000014305
+  },
+  {
+    "cell": "(170, 'csr', True, False)",
+    "early_mean": 274.5139999985695,
+    "late_mean": 272.92800000071526
+  },
+  {
+    "cell": "(170, 'csr', True, True)",
+    "early_mean": 274.93399999976157,
+    "late_mean": 274.20799999594686
+  },
+  {
+    "cell": "(170, 'ssr', False, False)",
+    "early_mean": 216.2200000011921,
+    "late_mean": 212.92400000095367
+  },
+  {
+    "cell": "(170, 'ssr', False, True)",
+    "early_mean": 204.74800000071525,
+    "late_mean": 200.9900000023842
+  },
+  {
+    "cell": "(170, 'ssr', True, False)",
+    "early_mean": 204.3360000014305,
+    "late_mean": 203.3939999973774
+  },
+  {
+    "cell": "(170, 'ssr', True, True)",
+    "early_mean": 204.21799999713897,
+    "late_mean": 204.28000000238418
+  }
+]

@@ -1,0 +1,14 @@
+#!/bin/sh
+# Symmetric-delay sensitivity: same eight mode/cache cells at 40 and 170 ms added round trip, with the delay split evenly between client egress and ingress.
+# Raw evidence goes to results/raw-symmetric; the primary results/raw is never touched. Fails closed if the main harness is active.
+set -eu
+cd "$(dirname "$0")"
+if pgrep -f harness.mjs > /dev/null; then echo 'Main harness active; no unibench work started.' >&2; exit 75; else code=$?; [ "$code" -eq 1 ] || exit "$code"; fi
+export UNI_RAW=../results/raw-symmetric
+mkdir -p "$UNI_RAW"
+cp ../results/raw/environment.json "$UNI_RAW/environment-primary-copy.json"
+node benchmark.mjs build
+node benchmark.mjs up
+{ echo '{'; echo "\"collected\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\","; echo "\"docker\": \"$(docker version --format '{{.Server.Version}}')\","; echo "\"images\": \"$(docker images --no-trunc --format '{{.Repository}}={{.ID}}' | grep '^unibench-' | tr '\n' ' ')\","; echo "\"git_commit\": \"$(git -C .. rev-parse HEAD)\""; echo '}'; } > "$UNI_RAW/environment-symmetric.json"
+node benchmark.mjs check
+until node benchmark.mjs symmetric; do echo 'retrying after an aborted attempt (all attempts are retained)'; sleep 5; done

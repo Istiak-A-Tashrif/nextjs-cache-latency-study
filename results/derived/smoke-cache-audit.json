@@ -1,0 +1,66 @@
+[
+  {
+    "run": "smoke-s1-d0-ssr-f0-b0",
+    "status": "PASS",
+    "api_requests": 7,
+    "frontend_replays": 0,
+    "redis_hits": 0,
+    "redis_misses": 0
+  },
+  {
+    "run": "smoke-s1-d0-csr-f0-b0",
+    "status": "PASS",
+    "api_requests": 7,
+    "frontend_replays": 0,
+    "redis_hits": 0,
+    "redis_misses": 0
+  },
+  {
+    "run": "smoke-s1-d0-csr-f1-b1",
+    "status": "PASS",
+    "api_requests": 4,
+    "frontend_replays": 3,
+    "redis_hits": 1,
+    "redis_misses": 3
+  },
+  {
+    "run": "smoke-s1-d0-ssr-f1-b0",
+    "status": "PASS",
+    "api_requests": 3,
+    "frontend_replays": 4,
+    "redis_hits": 0,
+    "redis_misses": 0
+  },
+  {
+    "run": "smoke-s1-d0-ssr-f1-b1",
+    "status": "PASS",
+    "api_requests": 3,
+    "frontend_replays": 4,
+    "redis_hits": 0,
+    "redis_misses": 3
+  },
+  {
+    "run": "smoke-s1-d0-ssr-f0-b1",
+    "status": "PASS",
+    "api_requests": 7,
+    "frontend_replays": 0,
+    "redis_hits": 4,
+    "redis_misses": 3
+  },
+  {
+    "run": "smoke-s1-d0-csr-f0-b1",
+    "status": "PASS",
+    "api_requests": 7,
+    "frontend_replays": 0,
+    "redis_hits": 4,
+    "redis_misses": 3
+  },
+  {
+    "run": "smoke-s1-d0-csr-f1-b0",
+    "status": "PASS",
+    "api_requests": 4,
+    "frontend_replays": 3,
+    "redis_hits": 0,
+    "redis_misses": 0
+  }
+]

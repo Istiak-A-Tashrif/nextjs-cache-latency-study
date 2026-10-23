@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "dataset",
+    "reviews": 30000
+  },
+  {
+    "kind": "first_initial",
+    "run": "primary-s23-d0-csr-f0-b0",
+    "value": 63.69999998807907
+  },
+  {
+    "kind": "navigation_mean",
+    "run": "primary-s23-d0-csr-f0-b0",
+    "value": 31.460000026226044
+  },
+  {
+    "kind": "api_count",
+    "run": "primary-s23-d0-csr-f0-b0",
+    "value": 7
+  },
+  {
+    "kind": "all_cache_db_queries",
+    "run": "primary-s11-d40-ssr-f1-b1",
+    "value": 3
+  }
+]

@@ -1,0 +1,34 @@
+SELECT 5000
+DO
+{"check" : "all_product_aggregates", "rows" : 5000, "mismatches" : 0}
+{ "categories" : 10, "tags" : 50, "product_tags" : 0, "inventory" : 5000, "products" : 5000, "users" : 10000, "orders" : 20000, "reviews" : 30000, "order_items" : 50000 }
+{"legacy_count_mismatches" : 4922}
+
+
+
+[683/720] primary-s9-d40-csr-f1-b1-retry1
+
+[684/720] primary-s10-d170-ssr-f1-b0
+
+[685/720] primary-s13-d0-ssr-f0-b1
+
+[686/720] primary-s1-d40-csr-f0-b1
+
+[687/720] primary-s29-d170-csr-f1-b1
+
+[688/720] primary-s25-d40-csr-f1-b1
+
+[689/720] primary-s20-d40-ssr-f0-b0
+
+[690/720] primary-s7-d40-ssr-f0-b0
+
+file:///Users/istiaktashrif/Projects/caching-research-uni/app/benchmark.mjs:17
+ if(blocked||code!==0)throw Error(blocked||err||'docker command failed');return text;
+                            ^
+
+Error: Main harness active: 25450 (25450 /bin/zsh Tue Oct 20 22:22:37 2026)
+    at monitored (file:///Users/istiaktashrif/Projects/caching-research-uni/app/benchmark.mjs:17:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///Users/istiaktashrif/Projects/caching-research-uni/app/benchmark.mjs:68:29
+
+Node.js v22.23.3

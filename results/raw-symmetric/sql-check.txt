@@ -1,0 +1,5 @@
+SELECT 5000
+DO
+{"check" : "all_product_aggregates", "rows" : 5000, "mismatches" : 0}
+{ "categories" : 10, "tags" : 50, "product_tags" : 0, "inventory" : 5000, "products" : 5000, "users" : 10000, "orders" : 20000, "reviews" : 30000, "order_items" : 50000 }
+{"legacy_count_mismatches" : 4922}

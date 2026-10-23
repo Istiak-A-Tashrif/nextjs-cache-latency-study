@@ -1,0 +1,1358 @@
+SELECT 5000
+DO
+{"check" : "all_product_aggregates", "rows" : 5000, "mismatches" : 0}
+{ "categories" : 10, "tags" : 50, "product_tags" : 0, "inventory" : 5000, "products" : 5000, "users" : 10000, "orders" : 20000, "reviews" : 30000, "order_items" : 50000 }
+{"legacy_count_mismatches" : 4922}
+
+
+
+[1/720] primary-s23-d0-csr-f0-b0
+
+[2/720] primary-s23-d170-ssr-f1-b0
+
+[3/720] primary-s6-d170-ssr-f0-b1
+
+[4/720] primary-s6-d0-csr-f0-b1
+
+[5/720] primary-s18-d0-csr-f1-b0
+
+[6/720] primary-s6-d170-csr-f1-b1
+
+[7/720] primary-s7-d170-csr-f1-b0
+
+[8/720] primary-s29-d170-csr-f0-b0
+
+[9/720] primary-s20-d170-ssr-f0-b0
+
+[10/720] primary-s5-d0-csr-f1-b1
+
+[11/720] primary-s29-d40-ssr-f0-b0
+
+[12/720] primary-s12-d170-ssr-f1-b0
+
+[13/720] primary-s19-d0-csr-f0-b1
+
+[14/720] primary-s29-d170-csr-f0-b1
+
+[15/720] primary-s3-d40-csr-f0-b0
+
+[16/720] primary-s19-d40-ssr-f1-b0
+
+[17/720] primary-s19-d170-csr-f0-b0
+
+[18/720] primary-s11-d40-ssr-f1-b1
+
+[19/720] primary-s13-d40-csr-f1-b0
+
+[20/720] primary-s9-d40-csr-f0-b0
+
+[21/720] primary-s18-d0-ssr-f0-b1
+
+[22/720] primary-s20-d170-csr-f1-b0
+
+[23/720] primary-s2-d0-csr-f1-b0
+
+[24/720] primary-s22-d40-csr-f0-b0
+
+[25/720] primary-s27-d170-ssr-f1-b1
+
+[26/720] primary-s22-d170-ssr-f1-b1
+
+[27/720] primary-s13-d170-ssr-f0-b0
+
+[28/720] primary-s15-d170-csr-f1-b0
+
+[29/720] primary-s20-d170-ssr-f0-b1
+
+[30/720] primary-s12-d0-csr-f0-b1
+
+[31/720] primary-s17-d0-ssr-f0-b0
+
+[32/720] primary-s20-d0-csr-f0-b0
+
+[33/720] primary-s17-d170-ssr-f1-b1
+
+[34/720] primary-s14-d170-ssr-f1-b0
+
+[35/720] primary-s1-d170-csr-f1-b0
+
+[36/720] primary-s1-d0-ssr-f1-b1
+
+[37/720] primary-s16-d0-ssr-f1-b0
+
+[38/720] primary-s10-d170-csr-f0-b0
+
+[39/720] primary-s27-d40-ssr-f0-b1
+
+[40/720] primary-s4-d40-csr-f0-b1
+
+[41/720] primary-s2-d0-csr-f0-b1
+
+[42/720] primary-s18-d170-csr-f0-b0
+
+[43/720] primary-s17-d40-ssr-f0-b0
+
+[44/720] primary-s9-d0-csr-f1-b1
+
+[45/720] primary-s17-d0-csr-f1-b0
+
+[46/720] primary-s17-d170-ssr-f0-b1
+
+[47/720] primary-s9-d40-ssr-f1-b1
+
+[48/720] primary-s11-d40-csr-f1-b1
+
+[49/720] primary-s10-d170-ssr-f1-b1
+
+[50/720] primary-s25-d40-ssr-f1-b1
+
+[51/720] primary-s10-d170-csr-f1-b1
+
+[52/720] primary-s13-d170-csr-f0-b1
+
+[53/720] primary-s14-d0-ssr-f1-b1
+
+[54/720] primary-s6-d0-csr-f1-b0
+
+[55/720] primary-s24-d170-ssr-f0-b1
+
+[56/720] primary-s29-d40-csr-f0-b0
+
+[57/720] primary-s18-d0-csr-f0-b1
+
+[58/720] primary-s8-d40-csr-f1-b1
+
+[59/720] primary-s30-d40-csr-f1-b0
+
+[60/720] primary-s29-d40-csr-f0-b1
+
+[61/720] primary-s22-d40-ssr-f1-b0
+
+[62/720] primary-s15-d0-csr-f0-b0
+
+[63/720] primary-s3-d170-ssr-f1-b1
+
+[64/720] primary-s16-d40-ssr-f1-b1
+
+[65/720] primary-s24-d0-csr-f0-b0
+
+[66/720] primary-s6-d0-ssr-f0-b1
+
+[67/720] primary-s8-d0-csr-f0-b1
+
+[68/720] primary-s22-d40-ssr-f0-b0
+
+[69/720] primary-s5-d0-ssr-f0-b1
+
+[70/720] primary-s12-d0-csr-f1-b1
+
+[71/720] primary-s10-d40-ssr-f0-b1
+
+[72/720] primary-s24-d40-ssr-f0-b1
+
+[73/720] primary-s10-d170-ssr-f0-b0
+
+[74/720] primary-s5-d170-csr-f0-b0
+
+[75/720] primary-s24-d40-csr-f1-b0
+
+[76/720] primary-s26-d170-ssr-f0-b0
+
+[77/720] primary-s16-d40-csr-f0-b0
+
+[78/720] primary-s26-d0-ssr-f0-b1
+
+[79/720] primary-s2-d170-csr-f0-b0
+
+[80/720] primary-s26-d0-ssr-f0-b0
+
+[81/720] primary-s23-d0-ssr-f0-b0
+
+[82/720] primary-s20-d40-csr-f0-b0
+
+[83/720] primary-s19-d40-csr-f0-b0
+
+[84/720] primary-s12-d40-csr-f1-b1
+
+[85/720] primary-s21-d0-ssr-f0-b0
+
+[86/720] primary-s20-d0-ssr-f1-b0
+
+[87/720] primary-s22-d0-ssr-f1-b1
+
+[88/720] primary-s26-d40-csr-f1-b0
+
+[89/720] primary-s23-d40-ssr-f0-b1
+
+[90/720] primary-s6-d40-ssr-f1-b1
+
+[91/720] primary-s20-d170-ssr-f1-b0
+
+[92/720] primary-s30-d0-csr-f1-b0
+
+[93/720] primary-s27-d0-csr-f1-b0
+
+[94/720] primary-s21-d170-csr-f1-b1
+
+[95/720] primary-s19-d40-ssr-f1-b1
+
+[96/720] primary-s16-d170-ssr-f0-b1
+
+[97/720] primary-s1-d0-csr-f0-b0
+
+[98/720] primary-s9-d0-csr-f1-b0
+
+[99/720] primary-s7-d0-ssr-f1-b1
+
+[100/720] primary-s14-d0-csr-f1-b0
+
+[101/720] primary-s21-d0-csr-f1-b1
+
+[102/720] primary-s12-d170-csr-f0-b1
+
+[103/720] primary-s1-d170-csr-f0-b0
+
+[104/720] primary-s22-d0-ssr-f0-b1
+
+[105/720] primary-s5-d0-ssr-f0-b0
+
+[106/720] primary-s11-d40-csr-f0-b0
+
+[107/720] primary-s4-d170-ssr-f0-b1
+
+[108/720] primary-s28-d40-csr-f0-b0
+
+[109/720] primary-s18-d40-csr-f1-b1
+
+[110/720] primary-s13-d170-ssr-f1-b0
+
+[111/720] primary-s15-d40-csr-f1-b1
+
+[112/720] primary-s6-d0-ssr-f0-b0
+
+[113/720] primary-s21-d170-ssr-f0-b0
+
+[114/720] primary-s28-d0-ssr-f0-b1
+
+[115/720] primary-s29-d170-ssr-f0-b1
+
+[116/720] primary-s15-d40-ssr-f1-b0
+
+[117/720] primary-s29-d0-csr-f0-b1
+
+[118/720] primary-s25-d40-csr-f0-b0
+
+[119/720] primary-s13-d40-csr-f0-b1
+
+[120/720] primary-s8-d0-csr-f0-b0
+
+[121/720] primary-s14-d170-ssr-f0-b1
+
+[122/720] primary-s9-d170-csr-f1-b0
+
+[123/720] primary-s22-d40-csr-f0-b1
+
+[124/720] primary-s17-d40-ssr-f1-b1
+
+[125/720] primary-s2-d170-ssr-f0-b0
+
+[126/720] primary-s5-d170-ssr-f0-b0
+
+[127/720] primary-s25-d0-ssr-f0-b0
+
+[128/720] primary-s28-d0-csr-f1-b1
+
+[129/720] primary-s2-d0-ssr-f1-b1
+
+[130/720] primary-s3-d0-ssr-f1-b1
+
+[131/720] primary-s13-d0-ssr-f0-b0
+
+[132/720] primary-s4-d170-csr-f0-b0
+
+[133/720] primary-s16-d170-ssr-f1-b1
+
+[134/720] primary-s16-d170-ssr-f0-b0
+
+[135/720] primary-s11-d170-ssr-f1-b0
+
+[136/720] primary-s27-d0-csr-f0-b1
+
+[137/720] primary-s14-d170-csr-f1-b0
+
+[138/720] primary-s7-d40-csr-f1-b0
+
+[139/720] primary-s16-d40-ssr-f0-b1
+
+[140/720] primary-s22-d40-csr-f1-b1
+
+[141/720] primary-s5-d0-ssr-f1-b1
+
+[142/720] primary-s10-d40-csr-f1-b0
+
+[143/720] primary-s25-d0-csr-f0-b0
+
+[144/720] primary-s19-d40-ssr-f0-b1
+
+[145/720] primary-s30-d40-csr-f0-b1
+
+[146/720] primary-s14-d40-ssr-f1-b0
+
+[147/720] primary-s26-d170-csr-f1-b0
+
+[148/720] primary-s25-d170-ssr-f1-b1
+
+[149/720] primary-s6-d170-ssr-f0-b0
+
+[150/720] primary-s13-d170-ssr-f0-b1
+
+[151/720] primary-s15-d0-ssr-f0-b0
+
+[152/720] primary-s12-d170-ssr-f0-b0
+
+[153/720] primary-s22-d170-csr-f1-b1
+
+[154/720] primary-s8-d170-csr-f1-b1
+
+[155/720] primary-s16-d170-ssr-f1-b0
+
+[156/720] primary-s17-d0-ssr-f0-b1
+
+[157/720] primary-s12-d170-csr-f0-b0
+
+[158/720] primary-s10-d170-csr-f0-b1
+
+[159/720] primary-s30-d0-csr-f0-b0
+
+[160/720] primary-s10-d40-ssr-f1-b1
+
+[161/720] primary-s22-d0-csr-f1-b1
+
+[162/720] primary-s21-d40-ssr-f1-b1
+
+[163/720] primary-s27-d40-ssr-f1-b1
+
+[164/720] primary-s25-d0-ssr-f1-b0
+
+[165/720] primary-s23-d0-csr-f1-b1
+
+[166/720] primary-s3-d40-ssr-f1-b0
+
+[167/720] primary-s17-d40-ssr-f1-b0
+
+[168/720] primary-s8-d40-ssr-f0-b0
+
+[169/720] primary-s26-d40-ssr-f0-b0
+
+[170/720] primary-s30-d170-csr-f0-b1
+
+[171/720] primary-s11-d40-csr-f0-b1
+
+[172/720] primary-s1-d170-ssr-f1-b0
+
+[173/720] primary-s18-d170-ssr-f1-b1
+
+[174/720] primary-s8-d0-ssr-f1-b0
+
+[175/720] primary-s1-d40-csr-f0-b0
+
+[176/720] primary-s12-d40-csr-f0-b0
+
+[177/720] primary-s21-d0-csr-f0-b0
+
+[178/720] primary-s6-d170-csr-f1-b0
+
+[179/720] primary-s30-d170-ssr-f0-b1
+
+[180/720] primary-s18-d40-csr-f0-b1
+
+[181/720] primary-s22-d0-csr-f1-b0
+
+[182/720] primary-s23-d0-ssr-f1-b1
+
+[183/720] primary-s28-d170-ssr-f1-b1
+
+[184/720] primary-s24-d40-csr-f0-b1
+
+[185/720] primary-s9-d0-csr-f0-b1
+
+[186/720] primary-s8-d40-ssr-f0-b1
+
+[187/720] primary-s10-d40-ssr-f0-b0
+
+[188/720] primary-s15-d0-csr-f1-b1
+
+[189/720] primary-s26-d0-csr-f0-b0
+
+[190/720] primary-s12-d0-ssr-f0-b0
+
+[191/720] primary-s19-d40-csr-f0-b1
+
+[192/720] primary-s30-d0-ssr-f1-b0
+
+[193/720] primary-s9-d0-ssr-f1-b0
+
+[194/720] primary-s23-d170-csr-f0-b1
+
+[195/720] primary-s14-d0-csr-f1-b1
+
+[196/720] primary-s13-d170-csr-f0-b0
+
+[197/720] primary-s29-d0-csr-f1-b0
+
+[198/720] primary-s3-d0-ssr-f0-b1
+
+[199/720] primary-s19-d0-ssr-f0-b0
+
+[200/720] primary-s2-d40-csr-f1-b0
+
+[201/720] primary-s27-d0-ssr-f0-b1
+
+[202/720] primary-s26-d40-csr-f0-b1
+
+[203/720] primary-s17-d170-csr-f1-b0
+
+[204/720] primary-s12-d40-csr-f1-b0
+
+[205/720] primary-s27-d40-csr-f0-b1
+
+[206/720] primary-s11-d0-csr-f1-b0
+
+[207/720] primary-s9-d170-ssr-f1-b1
+
+[208/720] primary-s28-d0-ssr-f1-b1
+
+[209/720] primary-s19-d0-csr-f0-b0
+
+[210/720] primary-s9-d0-ssr-f1-b1
+
+[211/720] primary-s3-d40-ssr-f0-b1
+
+[212/720] primary-s25-d40-ssr-f1-b0
+
+[213/720] primary-s22-d0-ssr-f0-b0
+
+[214/720] primary-s11-d40-csr-f1-b0
+
+[215/720] primary-s13-d0-csr-f1-b0
+
+[216/720] primary-s25-d170-csr-f1-b0
+
+[217/720] primary-s16-d0-ssr-f0-b0
+
+[218/720] primary-s4-d170-ssr-f1-b0
+
+[219/720] primary-s11-d170-csr-f0-b1
+
+[220/720] primary-s22-d40-ssr-f0-b1
+
+[221/720] primary-s2-d40-ssr-f0-b1
+
+[222/720] primary-s3-d40-ssr-f1-b1
+
+[223/720] primary-s29-d0-csr-f0-b0
+
+[224/720] primary-s6-d170-ssr-f1-b1
+
+[225/720] primary-s3-d170-csr-f0-b0
+
+[226/720] primary-s18-d40-csr-f1-b0
+
+[227/720] primary-s26-d170-csr-f0-b0
+
+[228/720] primary-s21-d170-ssr-f0-b1
+
+[229/720] primary-s2-d0-ssr-f0-b1
+
+[230/720] primary-s14-d40-csr-f0-b1
+
+[231/720] primary-s10-d170-ssr-f0-b1
+
+[232/720] primary-s12-d170-ssr-f1-b1
+
+[233/720] primary-s27-d40-csr-f1-b0
+
+[234/720] primary-s27-d170-csr-f1-b0
+
+[235/720] primary-s1-d40-csr-f1-b0
+
+[236/720] primary-s20-d170-csr-f0-b1
+
+[237/720] primary-s2-d0-ssr-f0-b0
+
+[238/720] primary-s17-d40-ssr-f0-b1
+
+[239/720] primary-s24-d0-csr-f0-b1
+
+[240/720] primary-s13-d0-csr-f0-b0
+
+[241/720] primary-s23-d40-csr-f0-b1
+
+[242/720] primary-s26-d0-ssr-f1-b0
+
+[243/720] primary-s15-d0-ssr-f0-b1
+
+[244/720] primary-s24-d170-csr-f0-b1
+
+[245/720] primary-s21-d170-csr-f1-b0
+
+[246/720] primary-s7-d40-csr-f0-b0
+
+[247/720] primary-s14-d0-ssr-f0-b0
+
+[248/720] primary-s11-d0-csr-f1-b1
+
+[249/720] primary-s11-d170-csr-f1-b0
+
+[250/720] primary-s11-d0-ssr-f0-b0
+
+[251/720] primary-s2-d170-ssr-f0-b1
+
+[252/720] primary-s5-d0-csr-f1-b0
+
+[253/720] primary-s3-d0-ssr-f1-b0
+
+[254/720] primary-s17-d40-csr-f1-b1
+
+[255/720] primary-s4-d40-ssr-f1-b1
+
+[256/720] primary-s8-d0-ssr-f0-b1
+
+[257/720] primary-s8-d170-ssr-f0-b0
+
+[258/720] primary-s11-d170-ssr-f0-b1
+
+[259/720] primary-s25-d170-csr-f0-b1
+
+[260/720] primary-s2-d0-ssr-f1-b0
+
+[261/720] primary-s20-d40-csr-f1-b0
+
+[262/720] primary-s13-d0-csr-f0-b1
+
+[263/720] primary-s6-d40-ssr-f0-b1
+
+[264/720] primary-s9-d170-csr-f1-b1
+
+[265/720] primary-s2-d0-csr-f1-b1
+
+[266/720] primary-s16-d0-ssr-f1-b1
+
+[267/720] primary-s12-d0-ssr-f0-b1
+
+[268/720] primary-s6-d170-csr-f0-b1
+
+[269/720] primary-s3-d170-csr-f1-b0
+
+[270/720] primary-s9-d170-ssr-f0-b1
+
+[271/720] primary-s27-d40-csr-f1-b1
+
+[272/720] primary-s7-d170-csr-f0-b0
+
+[273/720] primary-s3-d0-ssr-f0-b0
+
+[274/720] primary-s21-d170-csr-f0-b1
+
+[275/720] primary-s16-d170-csr-f1-b1
+
+[276/720] primary-s27-d170-csr-f0-b0
+
+[277/720] primary-s10-d170-csr-f1-b0
+
+[278/720] primary-s19-d40-ssr-f0-b0
+
+[279/720] primary-s30-d170-csr-f0-b0
+
+[280/720] primary-s5-d40-csr-f1-b0
+
+[281/720] primary-s10-d40-csr-f0-b1
+
+[282/720] primary-s7-d170-ssr-f1-b0
+
+[283/720] primary-s26-d0-csr-f0-b1
+
+[284/720] primary-s1-d40-csr-f1-b1
+
+[285/720] primary-s3-d40-ssr-f0-b0
+
+[286/720] primary-s27-d170-csr-f0-b1
+
+[287/720] primary-s3-d0-csr-f1-b1
+
+[288/720] primary-s7-d0-csr-f1-b1
+
+[289/720] primary-s30-d40-csr-f0-b0
+
+[290/720] primary-s18-d40-ssr-f0-b1
+
+[291/720] primary-s3-d0-csr-f0-b0
+
+[292/720] primary-s25-d170-csr-f1-b1
+
+[293/720] primary-s19-d0-ssr-f1-b1
+
+[294/720] primary-s30-d40-ssr-f1-b0
+
+[295/720] primary-s16-d0-csr-f1-b0
+
+[296/720] primary-s8-d170-ssr-f0-b1
+
+[297/720] primary-s13-d170-csr-f1-b1
+
+[298/720] primary-s24-d0-ssr-f1-b1
+
+[299/720] primary-s15-d170-csr-f0-b1
+
+[300/720] primary-s23-d40-ssr-f1-b1
+
+[301/720] primary-s2-d40-csr-f0-b0
+
+[302/720] primary-s12-d170-csr-f1-b0
+
+[303/720] primary-s24-d40-ssr-f1-b1
+
+[304/720] primary-s16-d170-csr-f1-b0
+
+[305/720] primary-s30-d170-csr-f1-b1
+
+[306/720] primary-s13-d170-csr-f1-b0
+
+[307/720] primary-s19-d0-ssr-f1-b0
+
+[308/720] primary-s14-d40-csr-f0-b0
+
+[309/720] primary-s28-d0-csr-f1-b0
+
+[310/720] primary-s7-d0-ssr-f0-b0
+
+[311/720] primary-s15-d40-ssr-f0-b0
+
+[312/720] primary-s30-d170-csr-f1-b0
+
+[313/720] primary-s17-d40-csr-f0-b1
+
+[314/720] primary-s17-d0-csr-f1-b1
+
+[315/720] primary-s29-d0-ssr-f1-b1
+
+[316/720] primary-s7-d0-ssr-f1-b0
+
+[317/720] primary-s6-d40-ssr-f1-b0
+
+[318/720] primary-s17-d0-csr-f0-b1
+
+[319/720] primary-s19-d0-csr-f1-b1
+
+[320/720] primary-s26-d0-ssr-f1-b1
+
+[321/720] primary-s28-d40-csr-f1-b1
+
+[322/720] primary-s6-d0-csr-f0-b0
+
+[323/720] primary-s15-d170-ssr-f1-b0
+
+[324/720] primary-s3-d40-csr-f1-b1
+
+[325/720] primary-s11-d170-csr-f0-b0
+
+[326/720] primary-s29-d170-ssr-f1-b1
+
+[327/720] primary-s26-d40-ssr-f0-b1
+
+[328/720] primary-s19-d40-csr-f1-b1
+
+[329/720] primary-s8-d0-ssr-f0-b0
+
+[330/720] primary-s9-d0-ssr-f0-b0
+
+[331/720] primary-s4-d170-csr-f1-b1
+
+[332/720] primary-s11-d40-ssr-f0-b0
+
+[333/720] primary-s30-d170-ssr-f0-b0
+
+[334/720] primary-s25-d0-csr-f0-b1
+
+[335/720] primary-s2-d40-csr-f0-b1
+
+[336/720] primary-s8-d170-ssr-f1-b1
+
+[337/720] primary-s22-d0-ssr-f1-b0
+
+[338/720] primary-s2-d40-ssr-f0-b0
+
+[339/720] primary-s13-d40-ssr-f0-b0
+
+[340/720] primary-s30-d40-csr-f1-b1
+
+[341/720] primary-s20-d170-csr-f0-b0
+
+[342/720] primary-s4-d0-csr-f1-b1
+
+[343/720] primary-s22-d170-ssr-f0-b1
+
+[344/720] primary-s7-d40-ssr-f1-b0
+
+[345/720] primary-s30-d0-ssr-f0-b1
+
+[346/720] primary-s12-d40-ssr-f0-b0
+
+[347/720] primary-s19-d170-ssr-f0-b1
+
+[348/720] primary-s28-d170-csr-f1-b0
+
+[349/720] primary-s29-d0-csr-f1-b1
+
+[350/720] primary-s1-d40-ssr-f1-b1
+
+[351/720] primary-s25-d40-ssr-f0-b1
+
+[352/720] primary-s8-d170-csr-f0-b1
+
+[353/720] primary-s14-d40-csr-f1-b1
+
+[354/720] primary-s9-d170-ssr-f0-b0
+
+[355/720] primary-s22-d0-csr-f0-b0
+
+[356/720] primary-s14-d0-ssr-f1-b0
+
+[357/720] primary-s14-d170-csr-f0-b0
+
+[358/720] primary-s17-d40-csr-f0-b0
+
+[359/720] primary-s28-d40-csr-f1-b0
+
+[360/720] primary-s16-d40-ssr-f0-b0
+
+[361/720] primary-s27-d170-csr-f1-b1
+
+[362/720] primary-s22-d170-ssr-f0-b0
+
+[363/720] primary-s3-d170-ssr-f0-b0
+
+[364/720] primary-s27-d0-ssr-f1-b1
+
+[365/720] primary-s11-d0-ssr-f1-b0
+
+[366/720] primary-s1-d0-csr-f1-b0
+
+[367/720] primary-s29-d40-ssr-f0-b1
+
+[368/720] primary-s2-d40-csr-f1-b1
+
+[369/720] primary-s2-d170-csr-f0-b1
+
+[370/720] primary-s2-d170-ssr-f1-b1
+
+[371/720] primary-s14-d170-ssr-f1-b1
+
+[372/720] primary-s22-d40-csr-f1-b0
+
+[373/720] primary-s8-d40-ssr-f1-b0
+
+[374/720] primary-s14-d0-csr-f0-b0
+
+[375/720] primary-s15-d0-csr-f1-b0
+
+[376/720] primary-s25-d0-csr-f1-b0
+
+[377/720] primary-s24-d0-csr-f1-b0
+
+[378/720] primary-s16-d0-csr-f0-b1
+
+[379/720] primary-s4-d40-csr-f1-b1
+
+[380/720] primary-s13-d40-csr-f0-b0
+
+[381/720] primary-s3-d40-csr-f1-b0
+
+[382/720] primary-s18-d40-csr-f0-b0
+
+[383/720] primary-s26-d40-csr-f1-b1
+
+[384/720] primary-s21-d40-csr-f1-b0
+
+[385/720] primary-s27-d170-ssr-f1-b0
+
+[386/720] primary-s23-d0-ssr-f1-b0
+
+[387/720] primary-s30-d0-csr-f1-b1
+
+[388/720] primary-s22-d170-csr-f1-b0
+
+[389/720] primary-s24-d0-ssr-f1-b0
+
+[390/720] primary-s1-d0-ssr-f0-b1
+
+[391/720] primary-s24-d0-ssr-f0-b0
+
+[392/720] primary-s23-d40-ssr-f0-b0
+
+[393/720] primary-s19-d40-csr-f1-b0
+
+[394/720] primary-s10-d0-csr-f1-b0
+
+[395/720] primary-s21-d40-ssr-f1-b0
+
+[396/720] primary-s10-d0-ssr-f0-b1
+
+[397/720] primary-s18-d40-ssr-f1-b1
+
+[398/720] primary-s28-d40-ssr-f1-b0
+
+[399/720] primary-s4-d0-csr-f0-b1
+
+[400/720] primary-s18-d170-csr-f1-b1
+
+[401/720] primary-s6-d0-ssr-f1-b0
+
+[402/720] primary-s2-d0-csr-f0-b0
+
+[403/720] primary-s21-d170-ssr-f1-b1
+
+[404/720] primary-s17-d0-ssr-f1-b0
+
+[405/720] primary-s17-d170-ssr-f0-b0
+
+[406/720] primary-s21-d0-ssr-f1-b0
+
+[407/720] primary-s18-d170-ssr-f1-b0
+
+[408/720] primary-s27-d40-ssr-f0-b0
+
+[409/720] primary-s13-d40-ssr-f1-b0
+
+[410/720] primary-s28-d0-csr-f0-b1
+
+[411/720] primary-s23-d170-ssr-f0-b1
+
+[412/720] primary-s10-d40-ssr-f1-b0
+
+[413/720] primary-s30-d0-ssr-f1-b1
+
+[414/720] primary-s6-d170-csr-f0-b0
+
+[415/720] primary-s21-d40-csr-f0-b0
+
+[416/720] primary-s29-d40-csr-f1-b1
+
+[417/720] primary-s11-d40-ssr-f0-b1
+
+[418/720] primary-s18-d170-ssr-f0-b1
+
+[419/720] primary-s15-d40-csr-f1-b0
+
+[420/720] primary-s24-d170-csr-f1-b1
+
+[421/720] primary-s23-d0-csr-f1-b0
+
+[422/720] primary-s29-d0-ssr-f1-b0
+
+[423/720] primary-s10-d0-ssr-f1-b0
+
+[424/720] primary-s25-d170-ssr-f0-b1
+
+[425/720] primary-s18-d0-ssr-f1-b1
+
+[426/720] primary-s5-d40-ssr-f1-b1
+
+[427/720] primary-s4-d40-csr-f0-b0
+
+[428/720] primary-s22-d40-ssr-f1-b1
+
+[429/720] primary-s3-d0-csr-f0-b1
+
+[430/720] primary-s5-d0-csr-f0-b0
+
+[431/720] primary-s15-d0-ssr-f1-b0
+
+[432/720] primary-s16-d170-csr-f0-b1
+
+[433/720] primary-s30-d170-ssr-f1-b1
+
+[434/720] primary-s10-d0-ssr-f0-b0
+
+[435/720] primary-s1-d170-ssr-f0-b1
+
+[436/720] primary-s30-d170-ssr-f1-b0
+
+[437/720] primary-s4-d0-ssr-f1-b1
+
+[438/720] primary-s15-d170-csr-f1-b1
+
+[439/720] primary-s15-d0-ssr-f1-b1
+
+[440/720] primary-s12-d0-ssr-f1-b0
+
+[441/720] primary-s27-d40-ssr-f1-b0
+
+[442/720] primary-s18-d40-ssr-f0-b0
+
+[443/720] primary-s24-d170-csr-f1-b0
+
+[444/720] primary-s8-d170-csr-f1-b0
+
+[445/720] primary-s9-d40-ssr-f0-b1
+
+[446/720] primary-s6-d40-csr-f1-b1
+
+[447/720] primary-s11-d170-csr-f1-b1
+
+[448/720] primary-s22-d0-csr-f0-b1
+
+[449/720] primary-s29-d0-ssr-f0-b1
+
+[450/720] primary-s19-d170-ssr-f1-b1
+
+[451/720] primary-s3-d40-csr-f0-b1
+
+[452/720] primary-s15-d170-ssr-f1-b1
+
+[453/720] primary-s15-d170-csr-f0-b0
+
+[454/720] primary-s4-d170-csr-f0-b1
+
+[455/720] primary-s13-d40-csr-f1-b1
+
+[456/720] primary-s1-d0-csr-f1-b1
+
+[457/720] primary-s9-d40-csr-f1-b0
+
+[458/720] primary-s6-d40-csr-f0-b1
+
+[459/720] primary-s15-d40-csr-f0-b1
+
+[460/720] primary-s11-d0-ssr-f0-b1
+
+[461/720] primary-s18-d40-ssr-f1-b0
+
+[462/720] primary-s21-d170-csr-f0-b0
+
+[463/720] primary-s24-d40-ssr-f0-b0
+
+[464/720] primary-s7-d0-csr-f0-b1
+
+[465/720] primary-s20-d0-ssr-f1-b1
+
+[466/720] primary-s1-d170-ssr-f0-b0
+
+[467/720] primary-s25-d40-csr-f1-b0
+
+[468/720] primary-s23-d40-csr-f1-b0
+
+[469/720] primary-s22-d170-csr-f0-b1
+
+[470/720] primary-s23-d0-ssr-f0-b1
+
+[471/720] primary-s17-d0-ssr-f1-b1
+
+[472/720] primary-s4-d170-csr-f1-b0
+
+[473/720] primary-s25-d0-csr-f1-b1
+
+[474/720] primary-s20-d0-ssr-f0-b1
+
+[475/720] primary-s5-d170-ssr-f1-b0
+
+[476/720] primary-s4-d0-csr-f0-b0
+
+[477/720] primary-s6-d40-ssr-f0-b0
+
+[478/720] primary-s24-d170-csr-f0-b0
+
+[479/720] primary-s7-d40-ssr-f1-b1
+
+[480/720] primary-s3-d170-csr-f0-b1
+
+[481/720] primary-s12-d0-csr-f0-b0
+
+[482/720] primary-s2-d170-csr-f1-b0
+
+[483/720] primary-s9-d170-csr-f0-b0
+
+[484/720] primary-s29-d40-ssr-f1-b1
+
+[485/720] primary-s9-d170-csr-f0-b1
+
+[486/720] primary-s22-d170-csr-f0-b0
+
+[487/720] primary-s11-d170-ssr-f0-b0
+
+[488/720] primary-s5-d40-ssr-f0-b1
+
+[489/720] primary-s18-d170-csr-f0-b1
+
+[490/720] primary-s4-d170-ssr-f1-b1
+
+[491/720] primary-s4-d40-ssr-f0-b1
+
+[492/720] primary-s16-d40-csr-f1-b1
+
+[493/720] primary-s19-d170-ssr-f0-b0
+
+[494/720] primary-s1-d40-ssr-f1-b0
+
+[495/720] primary-s12-d40-csr-f0-b1
+
+[496/720] primary-s16-d40-ssr-f1-b0
+
+[497/720] primary-s26-d40-csr-f0-b0
+
+[498/720] primary-s21-d40-csr-f0-b1
+
+[499/720] primary-s27-d0-ssr-f0-b0
+
+[500/720] primary-s6-d0-csr-f1-b1
+
+[501/720] primary-s16-d40-csr-f1-b0
+
+[502/720] primary-s26-d0-csr-f1-b1
+
+[503/720] primary-s26-d40-ssr-f1-b0
+
+[504/720] primary-s21-d0-csr-f0-b1
+
+[505/720] primary-s10-d0-csr-f1-b1
+
+[506/720] primary-s27-d0-csr-f1-b1
+
+[507/720] primary-s7-d170-csr-f0-b1
+
+[508/720] primary-s20-d40-csr-f0-b1
+
+[509/720] primary-s23-d170-csr-f1-b1
+
+[510/720] primary-s23-d170-ssr-f0-b0
+
+[511/720] primary-s15-d40-ssr-f0-b1
+
+[512/720] primary-s26-d170-ssr-f1-b1
+
+[513/720] primary-s30-d40-ssr-f0-b1
+
+[514/720] primary-s29-d0-ssr-f0-b0
+
+[515/720] primary-s19-d0-ssr-f0-b1
+
+[516/720] primary-s12-d40-ssr-f1-b0
+
+[517/720] primary-s28-d0-ssr-f1-b0
+
+[518/720] primary-s7-d0-csr-f1-b0
+
+[519/720] primary-s17-d40-csr-f1-b0
+
+[520/720] primary-s8-d40-csr-f0-b0
+
+[521/720] primary-s20-d170-ssr-f1-b1
+
+[522/720] primary-s29-d40-ssr-f1-b0
+
+[523/720] primary-s5-d170-csr-f1-b0
+
+[524/720] primary-s12-d40-ssr-f0-b1
+
+[525/720] primary-s3-d170-ssr-f1-b0
+
+[526/720] primary-s26-d170-ssr-f0-b1
+
+[527/720] primary-s12-d0-ssr-f1-b1
+
+[528/720] primary-s3-d170-csr-f1-b1
+
+[529/720] primary-s1-d170-ssr-f1-b1
+
+[530/720] primary-s10-d0-csr-f0-b1
+
+[531/720] primary-s25-d170-ssr-f0-b0
+
+[532/720] primary-s21-d0-csr-f1-b0
+
+[533/720] primary-s14-d170-csr-f0-b1
+
+[534/720] primary-s4-d170-ssr-f0-b0
+
+[535/720] primary-s15-d170-ssr-f0-b0
+
+[536/720] primary-s30-d40-ssr-f0-b0
+
+[537/720] primary-s7-d40-csr-f1-b1
+
+[538/720] primary-s5-d40-csr-f0-b0
+
+[539/720] primary-s12-d40-ssr-f1-b1
+
+[540/720] primary-s8-d0-ssr-f1-b1
+
+[541/720] primary-s7-d170-ssr-f0-b0
+
+[542/720] primary-s13-d170-ssr-f1-b1
+
+[543/720] primary-s14-d40-ssr-f1-b1
+
+[544/720] primary-s25-d170-csr-f0-b0
+
+[545/720] primary-s12-d0-csr-f1-b0
+
+[546/720] primary-s20-d40-ssr-f1-b0
+
+[547/720] primary-s24-d40-csr-f0-b0
+
+[548/720] primary-s12-d170-csr-f1-b1
+
+[549/720] primary-s14-d40-csr-f1-b0
+
+[550/720] primary-s9-d40-csr-f0-b1
+
+[551/720] primary-s23-d40-csr-f1-b1
+
+[552/720] primary-s4-d0-ssr-f1-b0
+
+[553/720] primary-s8-d170-csr-f0-b0
+
+[554/720] primary-s17-d170-csr-f0-b0
+
+[555/720] primary-s1-d0-csr-f0-b1
+
+[556/720] primary-s1-d0-ssr-f1-b0
+
+[557/720] primary-s8-d40-csr-f0-b1
+
+[558/720] primary-s11-d0-csr-f0-b0
+
+[559/720] primary-s28-d170-ssr-f1-b0
+
+[560/720] primary-s13-d40-ssr-f1-b1
+
+[561/720] primary-s10-d40-csr-f1-b1
+
+[562/720] primary-s11-d40-ssr-f1-b0
+
+[563/720] primary-s4-d0-ssr-f0-b0
+
+[564/720] primary-s8-d40-csr-f1-b0
+
+[565/720] primary-s23-d0-csr-f0-b1
+
+[566/720] primary-s13-d0-ssr-f1-b1
+
+[567/720] primary-s17-d170-csr-f1-b1
+
+[568/720] primary-s9-d40-ssr-f1-b0
+
+[569/720] primary-s18-d0-ssr-f1-b0
+
+[570/720] primary-s17-d170-ssr-f1-b0
+
+[571/720] primary-s21-d40-ssr-f0-b0
+
+[572/720] primary-s26-d40-ssr-f1-b1
+
+[573/720] primary-s24-d40-ssr-f1-b0
+
+[574/720] primary-s9-d0-ssr-f0-b1
+
+[575/720] primary-s14-d40-ssr-f0-b1
+
+[576/720] primary-s29-d170-ssr-f1-b0
+
+[577/720] primary-s6-d40-csr-f1-b0
+
+[578/720] primary-s19-d170-ssr-f1-b0
+
+[579/720] primary-s9-d0-csr-f0-b0
+
+[580/720] primary-s20-d0-csr-f0-b1
+
+[581/720] primary-s18-d0-csr-f0-b0
+
+[582/720] primary-s20-d40-ssr-f1-b1
+
+[583/720] primary-s16-d0-csr-f1-b1
+
+[584/720] primary-s7-d40-ssr-f0-b1
+
+[585/720] primary-s14-d0-csr-f0-b1
+
+[586/720] primary-s6-d0-ssr-f1-b1
+
+[587/720] primary-s21-d0-ssr-f1-b1
+
+[588/720] primary-s5-d0-csr-f0-b1
+
+[589/720] primary-s23-d40-csr-f0-b0
+
+[590/720] primary-s27-d170-ssr-f0-b1
+
+[591/720] primary-s5-d40-ssr-f0-b0
+
+[592/720] primary-s28-d170-ssr-f0-b0
+
+[593/720] primary-s27-d0-ssr-f1-b0
+
+[594/720] primary-s20-d0-csr-f1-b0
+
+[595/720] primary-s28-d40-csr-f0-b1
+
+[596/720] primary-s27-d0-csr-f0-b0
+
+[597/720] primary-s23-d170-ssr-f1-b1
+
+[598/720] primary-s4-d0-csr-f1-b0
+
+[599/720] primary-s27-d40-csr-f0-b0
+
+[600/720] primary-s10-d0-csr-f0-b0
+
+[601/720] primary-s13-d40-ssr-f0-b1
+
+[602/720] primary-s27-d170-ssr-f0-b0
+
+[603/720] primary-s26-d170-ssr-f1-b0
+
+[604/720] primary-s30-d40-ssr-f1-b1
+
+[605/720] primary-s18-d170-csr-f1-b0
+
+[606/720] primary-s5-d170-ssr-f1-b1
+
+[607/720] primary-s2-d40-ssr-f1-b0
+
+[608/720] primary-s26-d170-csr-f0-b1
+
+[609/720] primary-s14-d40-ssr-f0-b0
+
+[610/720] primary-s9-d40-ssr-f0-b0
+
+[611/720] primary-s30-d0-csr-f0-b1
+
+[612/720] primary-s15-d40-ssr-f1-b1
+
+[613/720] primary-s20-d170-csr-f1-b1
+
+[614/720] primary-s4-d40-ssr-f0-b0
+
+[615/720] primary-s25-d0-ssr-f0-b1
+
+[616/720] primary-s6-d170-ssr-f1-b0
+
+[617/720] primary-s28-d170-csr-f0-b1
+
+[618/720] primary-s13-d0-ssr-f1-b0
+
+[619/720] primary-s18-d0-ssr-f0-b0
+
+[620/720] primary-s26-d0-csr-f1-b0
+
+[621/720] primary-s5-d170-ssr-f0-b1
+
+[622/720] primary-s5-d40-csr-f1-b1
+
+[623/720] primary-s1-d40-ssr-f0-b0
+
+[624/720] primary-s19-d170-csr-f1-b0
+
+[625/720] primary-s9-d170-ssr-f1-b0
+
+[626/720] primary-s21-d40-csr-f1-b1
+
+[627/720] primary-s1-d170-csr-f0-b1
+
+[628/720] primary-s28-d40-ssr-f1-b1
+
+[629/720] primary-s2-d170-csr-f1-b1
+
+[630/720] primary-s7-d170-ssr-f0-b1
+
+[631/720] primary-s17-d0-csr-f0-b0
+
+[632/720] primary-s12-d170-ssr-f0-b1
+
+[633/720] primary-s29-d40-csr-f1-b0
+
+[634/720] primary-s25-d40-ssr-f0-b0
+
+[635/720] primary-s24-d40-csr-f1-b1
+
+[636/720] primary-s21-d0-ssr-f0-b1
+
+[637/720] primary-s24-d0-csr-f1-b1
+
+[638/720] primary-s23-d170-csr-f1-b0
+
+[639/720] primary-s25-d40-csr-f0-b1
+
+[640/720] primary-s8-d0-csr-f1-b0
+
+[641/720] primary-s28-d40-ssr-f0-b0
+
+[642/720] primary-s2-d40-ssr-f1-b1
+
+[643/720] primary-s13-d0-csr-f1-b1
+
+[644/720] primary-s25-d0-ssr-f1-b1
+
+[645/720] primary-s1-d40-ssr-f0-b1
+
+[646/720] primary-s14-d170-ssr-f0-b0
+
+[647/720] primary-s19-d170-csr-f1-b1
+
+[648/720] primary-s5-d170-csr-f1-b1
+
+[649/720] primary-s21-d170-ssr-f1-b0
+
+[650/720] primary-s5-d170-csr-f0-b1
+
+[651/720] primary-s18-d170-ssr-f0-b0
+
+[652/720] primary-s23-d40-ssr-f1-b0
+
+[653/720] primary-s24-d0-ssr-f0-b1
+
+[654/720] primary-s28-d0-csr-f0-b0
+
+[655/720] primary-s19-d0-csr-f1-b0
+
+[656/720] primary-s5-d40-csr-f0-b1
+
+[657/720] primary-s20-d0-ssr-f0-b0
+
+[658/720] primary-s3-d0-csr-f1-b0
+
+[659/720] primary-s24-d170-ssr-f1-b1
+
+[660/720] primary-s29-d170-csr-f1-b0
+
+[661/720] primary-s23-d170-csr-f0-b0
+
+[662/720] primary-s6-d40-csr-f0-b0
+
+[663/720] primary-s7-d170-ssr-f1-b1
+
+[664/720] primary-s28-d170-ssr-f0-b1
+
+[665/720] primary-s20-d40-ssr-f0-b1
+
+[666/720] primary-s20-d0-csr-f1-b1
+
+[667/720] primary-s15-d40-csr-f0-b0
+
+[668/720] primary-s4-d0-ssr-f0-b1
+
+[669/720] primary-s16-d0-ssr-f0-b1
+
+[670/720] primary-s7-d0-csr-f0-b0
+
+file:///Users/istiaktashrif/Projects/caching-research-uni/app/benchmark.mjs:16
+ if(blocked||code!==0)throw Error(blocked||err||'docker command failed');return text;
+                            ^
+
+Error: Main harness active: 14096
+    at monitored (file:///Users/istiaktashrif/Projects/caching-research-uni/app/benchmark.mjs:16:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///Users/istiaktashrif/Projects/caching-research-uni/app/benchmark.mjs:53:29
+
+Node.js v22.23.3
